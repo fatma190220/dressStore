@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "فستان سواريه",
+      "category": "فساتين سهرة",
+      "rating": 4.5,
+      "price": 1200,
+      "currency": "EGP",
+      "color": "midnightblue",
+      "size": "M",
+      "description": "فستان أنيق مصنوع من قماش لامع يناسب الحفلات والمناسبات الخاصة.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 2,
+      "name": "فستان اطفال",
+      "category": "فساتين أطفال",
+      "rating": 4.2,
+      "price": 950,
+      "currency": "EGP",
+      "color": "hotpink",
+      "size": "S",
+      "description": "فستان جميل للأطفال مزين بتفاصيل رقيقة وألوان مبهجة.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 3,
+      "name": "فستان سواريه",
+      "category": "فساتين خطوبة",
+      "rating": 4.8,
+      "price": 1350,
+      "currency": "EGP",
+      "color": "darkred",
+      "size": "L",
+      "description": "تصميم راقٍ بلون أحمر داكن يلائم المناسبات الرسمية.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 4,
+      "name": "ملابس رجالي",
+      "category": "ملابس رجالي",
+      "rating": 4.3,
+      "price": 1100,
+      "currency": "EGP",
+      "color": "slategray",
+      "size": "M",
+      "description": "فستان بسيط وأنيق بلون حيادي يناسب كل الأذواق.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 5,
+      "name": "فستان سواريه",
+      "category": "فساتين زفاف",
+      "rating": 4.0,
+      "price": 800,
+      "currency": "EGP",
+      "color": "lightblue",
+      "size": "XS",
+      "description": "فستان أطفال بلون سماوي ناعم مثالي للمناسبات الصغيرة.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 6,
+      "name": "فستان سواريه",
+      "category": "فساتين سهرة",
+      "rating": 4.6,
+      "price": 1600,
+      "currency": "EGP",
+      "color": "teal",
+      "size": "XL",
+      "description": "فستان فاخر بلون تركواز أنيق مع تفاصيل فريدة.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 7,
+      "name": "فستان اطفال",
+      "category": "فساتين أطفال",
+      "rating": 4.1,
+      "price": 1050,
+      "currency": "EGP",
+      "color": "orchid",
+      "size": "S",
+      "description": "فستان أطفال بلون بنفسجي هادئ ومظهر جميل.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 8,
+      "name": "فستان سواريه",
+      "category": "فساتين سهرة",
+      "rating": 4.7,
+      "price": 1450,
+      "currency": "EGP",
+      "color": "indigo",
+      "size": "L",
+      "description": "فستان بتصميم فاخر مع لمعة ناعمة مناسبة للسهرات.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 9,
+      "name": "فستان سواريه",
+      "category": "فساتين سهرة",
+      "rating": 3.9,
+      "price": 750,
+      "currency": "EGP",
+      "color": "coral",
+      "size": "M",
+      "description": "فستان مميز بتصميم بسيط يناسب الإطلالات اليومية الراقية.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 10,
+      "name": "فستان اطفال",
+      "category": "فساتين أطفال",
+      "rating": 4.4,
+      "price": 1250,
+      "currency": "EGP",
+      "color": "gold",
+      "size": "M",
+      "description": "فستان أطفال فاخر بلون ذهبي مثالي لحفلات الزفاف.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 11,
+      "name": "فستان خطوبة",
+      "category": "فساتين خطوبة",
+      "rating": 4.6,
+      "price": 1550,
+      "currency": "EGP",
+      "color": "forestgreen",
+      "size": "XL",
+      "description": "فستان بلون أخضر غامق وإطلالة ملكية تناسب المناسبات الخاصة.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    },
+    {
+      "id": 12,
+      "name": "فستان سواريه",
+      "category": "فساتين سهرة",
+      "rating": 4.9,
+      "price": 1700,
+      "currency": "EGP",
+      "color": "crimson",
+      "size": "L",
+      "description": "فستان فاخر بتصميم مميز وقماش راقٍ بلون أحمر ملكي.",
+      "image": "https://png.pngtree.com/png-clipart/20230506/original/pngtree-beautiful-dress-png-image_9143204.png"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "أحدث صيحات الموضة 2025",
+      "description": "تعرفي على أحدث صيحات الموضة وكيفية تنسيق الألوان لإطلالة مميزة.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 2,
+      "title": "نصائح لاختيار فستان السهرة",
+      "description": "إزاي تختاري فستان سهرة مناسب لشكل جسمك ولون بشرتك مع لمسات عصرية.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 3,
+      "title": "العناية بالفساتين",
+      "description": "طرق سهلة للحفاظ على فساتينك المفضلة بحالة جيدة تدوم معك سنوات.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 4,
+      "title": "تنسيقات الألوان",
+      "description": "أفضل الطرق لتنسيق الألوان بين الفساتين والإكسسوارات.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 5,
+      "title": "أقمشة الفساتين",
+      "description": "تعرفي على أنواع الأقمشة المفضلة للفساتين ومميزات كل نوع.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 6,
+      "title": "موضة الأطفال",
+      "description": "أحدث التصاميم للأطفال لتظهريهم بأجمل إطلالة.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 7,
+      "title": "إكسسوارات تناسب فساتي",
+      "description": "أفضل الإكسسوارات اللي ممكن تعملي بيها لمسة سحرية على إطلالتك.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 8,
+      "title": "ألوان الموسم",
+      "description": "الألوان اللي متصدرة موضة الموسم وكيفية دمجها مع فساتينك.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 9,
+      "title": "نصائح قبل شراء فستان جديد",
+      "description": "إيه اللي لازم تركزي عليه قبل ما تشتري فستان جديد.",
+      "image": "/assets/blogs.jpg"
+    },
+    {
+      "id": 10,
+      "title": "إطلالات النجوم",
+      "description": "إستلهمي إطلالتك من أجمل إطلالات النجمات على السجادة الحمراء.",
+      "image": "/assets/blogs.jpg"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "نور أحمد",
+      "role": "المؤسس والمدير التنفيذي",
+      "image": "https://img.freepik.com/free-photo/ceo-fashion.jpg"
+    },
+    {
+      "id": 2,
+      "name": "سارة علي",
+      "role": "مصممة أزياء",
+      "image": "https://img.freepik.com/free-photo/fashion-designer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "محمد حسن",
+      "role": "مدير التسويق",
+      "image": "https://img.freepik.com/free-photo/marketing-manager.jpg"
+    },
+    {
+      "id": 4,
+      "name": "مريم يوسف",
+      "role": "خبيرة تنسيق إطلالات",
+      "image": "https://img.freepik.com/free-photo/stylist-fashion.jpg"
+    }
+  ]
+}

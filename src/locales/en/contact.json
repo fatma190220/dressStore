@@ -1,0 +1,7 @@
+{
+  "loadingBranches": "Loading branches...",
+  "errorBranches": "An error occurred while loading branches",
+  "allBranches": "All Branches",
+  "searchPlaceholder": "Search by branch name...",
+  "searchButton": "Search"
+}

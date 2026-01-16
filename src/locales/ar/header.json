@@ -1,0 +1,31 @@
+{
+  "topHeader": {
+    "offer": "أسعار مميزة"
+  },
+  "menu": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "products": "المنتجات",
+    "blog": "المدونة",
+    "contact": "تواصل معنا"
+  },
+  "user": {
+    "profile": "الملف الشخصي",
+    "orders": "طلباتي",
+    "logout": "تسجيل الخروج",
+    "login": "دخول",
+    "signup": "إنشاء حساب"
+  },
+  "dropdown": {
+    "language": "اللغة",
+    "currency": "العملة",
+    "arabic": "العربية",
+    "english": "English",
+    "sar": "ريال سعودي",
+    "usd": "دولار أمريكي",
+    "egp": "جنيه مصري"
+  },
+  "buttons": {
+    "close": "إغلاق"
+  }
+}

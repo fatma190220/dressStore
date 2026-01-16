@@ -1,0 +1,18 @@
+{
+  "emptyCartTitle": "Your cart is empty",
+  "emptyCartMessage": "You haven't added any products yet.",
+  "shopNow": "Shop Now",
+  "price": "Price",
+  "unit": "Unit",
+  "color": "Color",
+  "noColors": "No colors available",
+  "size": "Size",
+  "noSizes": "No sizes available",
+  "quantity": "Quantity",
+  "steps": {
+    "cart": "Cart",
+    "shipping": "Shipping Details",
+    "payment": "Payment",
+    "review": "Product Review"
+  }
+}

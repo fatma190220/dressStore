@@ -1,0 +1,18 @@
+{
+  "emptyCartTitle": "السلة فارغة",
+  "emptyCartMessage": "لم يتم تحديد أي منتجات في السلة.",
+  "shopNow": "تسوق الآن",
+  "price": "السعر",
+  "unit": "الوحدة",
+  "color": "اللون",
+  "noColors": "لا يوجد ألوان",
+  "size": "المقاس",
+  "noSizes": "لا يوجد مقاسات",
+  "quantity": "الكمية",
+  "steps": {
+    "cart": "السلة",
+    "shipping": "معلومات الشحن",
+    "payment": "الدفع",
+    "review": "تقييم المنتج"
+  }
+}

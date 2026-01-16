@@ -1,0 +1,19 @@
+{
+  "loadingData": "Loading data...",
+  "loadingImages": "Loading images...",
+  "errorLoading": "Error loading data",
+  "products": {
+    "title": "Latest Products",
+    "description": "The latest modern dress designs with high quality and elegance to suit all occasions and tastes."
+  },
+  "buttons": {
+    "ourProducts": "Our Products",
+    "showMore": "View More",
+    "more": "More"
+  },
+  "section": {
+    "title": "Latest Modern Designs",
+    "highlight": "Latest",
+    "description": "The latest modern dress designs with high quality and elegance."
+  }
+}

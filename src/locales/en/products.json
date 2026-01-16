@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "allCategories": "All Categories",
+    "categories": "Categories",
+    "noCategories": "No categories available",
+    "price": "Price"
+  },
+  "page": {
+    "loadingProduct": "Loading product...",
+    "notFound": "Product not found",
+    "noDescription": "No description available",
+    "color": "Color",
+    "noColors": "No colors available",
+    "size": "Size",
+    "noSizes": "No sizes available",
+    "rating": "Rating",
+    "addToCart": "Add to cart",
+    "similarProducts": "Similar Products",
+    "comments": "Comments",
+    "addedToCart": "Product has been added to the cart successfully!"
+  }
+}

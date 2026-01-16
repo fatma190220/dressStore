@@ -1,0 +1,563 @@
+:root {
+  --main-color: #98FF98;
+  --sec-color:rgb(226,255,226);
+  --layout-bg: #F5F5F5;
+}
+
+.main-bg{
+    background-color: var(--main-color);
+}
+
+.sec-bg{
+  background-color: var(--sec-color);
+}
+
+.main-color{
+  color: var(--main-color);
+}
+
+.layout-bg{
+   background-color: var(--layout-bg);
+}
+
+body.layout-bg {
+  background-color: var(--layout-bg);
+}
+
+textarea {
+  background-color: var(--layout-bg) !important;
+}
+
+
+* {
+  font-family: "Almarai", sans-serif;
+
+}
+
+
+
+/**********************************************button******/
+.button{
+  min-width: 180px;
+  height: 50px;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.animated-btn {
+  position: relative;
+  background-color: rgb(226,255,226);
+  cursor: pointer;
+  transition: color 0.4s ease;
+  z-index: 1;
+}
+
+.animated-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  /* استخدم right أو left حسب اتجاه الصفحة */
+  inset-inline-end: 90%; /* يبدأ من الخارج حسب اتجاه الصفحة */
+  width: 100%;
+  height: 100%;
+  background: #98FF98;
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+
+.animated-btn:hover::before {
+  inset-inline-end: 0; /* يتحرك للداخل حسب اتجاه الصفحة */
+}
+
+
+  /**************************header*************/
+
+
+
+
+
+.cart-icon{
+  font-size: 2rem;
+  color: #000; 
+  transition: color 0.3s ease-in-out;
+}
+
+  .isactive{
+    position: relative;
+  }
+
+  .isactive::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+     inset-inline-start: 0;
+    width: 70%;
+    height: 2px;
+    background-color: #000; /* اللون الأسود للخط */
+    
+  }
+  
+.cart-count {
+  font-size: 10px;
+  transform: translate(40%, -40%);
+  min-width: 16px;
+  min-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .dropdown-toggle:focus,
+.dropdown-toggle:active,
+.dropdown-toggle:focus:active {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.form-check-input:checked {
+  background-color: #000 !important; /* الخلفية تبقى سودة */
+  border-color: #000 !important;     /* البوردر يبقى أسود */
+}
+
+/**********nav***********/
+.nav{
+   background-image:  url('/public/assets/nav.jpg');
+   background-position: center center; /* من النص */
+  background-repeat: no-repeat;       /* عشان ما تتكررش */
+  background-size: cover; 
+
+    width:100%;
+}
+
+.nav-content{
+ background-color: rgba(152, 255, 152, .8); 
+  width:100%;
+  
+}
+
+
+
+
+ /**************************toolitems*************/
+ .toolitem{
+  transition: .3s;
+ }
+
+ .toolitem:hover{
+   background-color: rgb(152,255,152,.4);
+   border-radius: 15px;
+   padding: 7px;
+ }
+
+
+ /********************slider buttons**************************/
+
+.custom-indicators {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  direction: ltr;
+  gap: 2px;
+  z-index: 5;
+}
+
+
+.custom-indicators button {
+  width: 5px  !important;
+  height: 45px  !important;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s;
+  cursor: pointer;
+}
+
+
+.custom-indicators button.active {
+  opacity: 1;
+  background-color: var(--main-color);
+}
+
+
+.custom-indicators button:hover {
+  opacity: 0.8;
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .slider-content {
+    right: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    align-items: center !important;
+    width: 80% !important;
+  }
+
+  .slider-content h3,
+  .slider-content p {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-indicators {
+    display: none !important;
+  }
+}
+
+ /************************input**************/
+
+ .input-icon-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 95%; 
+    }
+
+  .input-icon-wrapper input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1; 
+    }
+
+input[type="checkbox"]:checked {
+  accent-color: var(--main-color); /* اللون اللي تحبيه */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: none !important;
+}
+
+
+/*********************card***************/
+.card:hover, .blog-post:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.link-highlight {
+ position: relative;
+  transition: color 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.blog-preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;          
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.7;                
+  max-height: calc(1.7em * 3);    
+  word-break: break-word;
+  color: #6c757d;                  
+  transition: all 0.3s ease;
+}
+
+
+@media (min-width: 768px) {
+  .blog-preview {
+    -webkit-line-clamp: 3;
+    max-height: calc(1.7em * 3);
+  }
+}
+
+/* تأثير بسيط عند الهوف */
+.blog-preview:hover {
+  color: #444;
+}
+
+
+
+/* حركة الأيقونة فقط */
+.more-link:hover .link-highlight-icon {
+  transform: translateX(6px); /* تتحرك يمين في اللغات LTR */
+}
+
+/* لو الموقع عربي أو RTL تتحرك عكس الاتجاه */
+[dir="rtl"] .more-link:hover .link-highlight-icon {
+  transform: translateX(-6px);
+}
+
+
+.link-highlight::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  end: -7px;
+  width: 75%;
+  height: 2px;
+ border-radius: 0 5px 5px 0;
+  background-color: var(--main-color);
+  height: 40px;
+  z-index: -1;
+  opacity: .5;
+   transition: opacity 0.5s ease-in-out;
+}
+
+.link-highlight:hover::before {
+  opacity: 1;
+}
+
+.product-card-container {
+  flex: 1 1 250px; /* الكارت بياخد على الأقل 250px، ويكبر حسب المساحة */
+  max-width: 100%;  /* ما يخرجش عن السطر */
+}
+
+
+/******************section******************/
+
+#section {
+  background-image: url('https://backend.furnitureofegypt.com/8x-e-commerce-v3-backend/storage/26043/google_drive_tS4E4d.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+#section-content {
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  height: 350px;
+}
+
+
+
+/**************************contact us***********/
+.custom-accordion .accordion-button::after {
+  margin-right: auto; 
+  margin-left: 0;
+}
+
+.custom-accordion .accordion-button {
+  background-color: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+
+.custom-accordion .accordion-button,
+.custom-accordion .accordion-collapse {
+  position: relative;
+}
+
+
+.custom-accordion .accordion-button:not(.collapsed)::before,
+.custom-accordion .accordion-collapse.show::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0; 
+  height: 100%;
+  width: 10px;
+  background-color: var(--main-color);
+  z-index: 1;
+}
+
+/************products range prive input****************/
+
+.custom-slider {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  position: relative;
+}
+
+.custom-track {
+  height: 6px;
+  top: 0;
+  bottom: 0;
+  border-radius: 3px;
+}
+
+.custom-track.track-0 {
+  background: #ddd; 
+}
+
+.custom-track.track-1 {
+  background: black; 
+}
+
+.custom-track.track-2 {
+  background: #ddd; 
+}
+
+.custom-thumb {
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: grab;
+  margin-top: -5px;
+  position: relative;
+  z-index: 2;
+}
+
+
+/************products colors**************/
+
+
+.circles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 30px); /* 4 دواير في الصف */
+  gap: 10px;
+  justify-content: center; /* وسط الصفحة */
+  margin-top: 30px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* drop down user menu */
+.user-dropdown .dropdown-menu {
+  padding: 0.5rem 0;
+}
+
+.user-dropdown .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.user-dropdown .dropdown-item:hover {
+  background-color: rgba(246, 80, 80, 0.05);
+}
+
+
+/*************aboutus********************/
+.about-img-wrapper {
+  position: relative;
+  width: 300px;
+  min-height: 423px;
+  display: block;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.about-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  opacity:0.3; 
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+  .about-img-wrapper {
+    width: 100%;
+   height: 400px;
+    margin-top: 15px;
+  }
+}
+
+/*****stepper***********/
+
+.current-step {
+  
+  background-color: #363744;
+} 
+
+.next-step {
+  background-color: #B3B3B3;
+}
+
+/*****shipping details***********/
+
+.custom-input {
+  height: 56px !important;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #646464;
+  font-size: 14px;
+}
+
+.input-wrapper input {
+  padding-right: 60px; 
+  height: 56px; 
+}
+
+
+
+.custom-radio {
+  position: relative;
+  display: block;
+
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-radio input:checked ~ .checkmark i{
+  color: var(--main-color);
+  position: absolute;
+  top: 50%;
+  
+  transform: translateY(-50%);
+  left: 1rem;
+}
+
+/* أيقونة عند الاختيار */
+.custom-radio .checkmark i {
+  display: none;
+  width: 12px;
+  height: 12px;
+}
+
+.custom-radio input:checked ~ .checkmark i {
+  display: block;
+}
+
+
+

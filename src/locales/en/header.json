@@ -1,0 +1,31 @@
+{
+  "topHeader": {
+    "offer": "Special Prices"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "user": {
+    "profile": "Profile",
+    "orders": "My Orders",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "dropdown": {
+    "language": "Language",
+    "currency": "Currency",
+    "arabic": "Arabic",
+    "english": "English",
+    "sar": "Saudi Riyal",
+    "usd": "US Dollar",
+    "egp": "Egyptian Pound"
+  },
+  "buttons": {
+    "close": "Close"
+  }
+}

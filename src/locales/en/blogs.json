@@ -1,0 +1,12 @@
+{
+  "loadingBlogs": "Loading blogs...",
+  "errorBlogs": "An error occurred while loading data",
+  "searchPlaceholder": "Search by blog title...",
+  "searchButton": "Search",
+  "noBlogs": "No blogs available.",
+  "readMore": " More",
+  "loadingSingleBlog": "Loading blog...",
+  "notFound": "The requested blog was not found",
+  "backToBlogs": "Back to Blogs",
+  "date": "Date"
+}

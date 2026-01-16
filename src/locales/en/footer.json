@@ -1,0 +1,17 @@
+{
+  "description": "Maxim offers a variety of dresses in different styles and sizes to suit all tastes and occasions.",
+  "quickLinks": "Quick Links",
+  "links": {
+    "about": "About Us",
+    "blog": "Blog",
+    "privacy": "Privacy Policy",
+    "policies": "Terms & Conditions",
+    "contact": "Contact Us"
+  },
+  "newsletter": {
+    "label": "Enter your email",
+    "placeholder": "Type your email",
+    "button": "Subscribe"
+  },
+  "copyright": "All rights reserved © 2025"
+}

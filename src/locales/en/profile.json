@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "title": "My Account",
+    "description": "You can edit account details or change your password",
+    "name": "Name:",
+    "email": "Email:",
+    "mobile": "Mobile Number:",
+    "passwordd": "Password:",
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "changePassword": "Change Password",
+    "loginFirst": "Please log in first",
+    "password": {
+      "title": "Change Password",
+      "old": "Old Password:",
+      "new": "New Password:",
+      "confirm": "Confirm New Password:",
+      "errorShort": "The new password must be longer than 6 characters",
+      "errorMismatch": "The new password and its confirmation do not match",
+      "success": "Password changed successfully!",
+      "saving": "Updating...",
+      "save": "Save Change"
+    },
+    "savedChanges": {
+      "title": "Information Updated Successfully"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "allCategories": "كل الفئات",
+    "categories": "الفئات",
+    "noCategories": "لا توجد فئات متاحة",
+    "price": "السعر"
+  },
+  "page": {
+    "loadingProduct": "جاري تحميل المنتج...",
+    "notFound": "المنتج غير موجود",
+    "noDescription": "لا يوجد وصف للمنتج",
+    "color": "اللون",
+    "noColors": "لا يوجد ألوان متاحة",
+    "size": "المقاس",
+    "noSizes": "لا يوجد مقاسات متاحة",
+    "rating": "التقييم",
+    "addToCart": "اضف الى السلة",
+    "similarProducts": "المنتجات المشابهة",
+    "comments": "التعليقات",
+    "addedToCart": "تمت إضافة المنتج إلى السلة بنجاح!"
+  }
+}

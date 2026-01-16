@@ -1,0 +1,58 @@
+{
+  "invoiceDetails": {
+    "title": "Invoice Details",
+    "discountCoupon": "Enter discount coupon",
+    "apply": "Apply",
+    "productsPrice": "Products Price",
+    "shipping": "Shipping Service",
+    "vat": "VAT",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Proceed to Checkout"
+  },
+  "shippingDetails": {
+    "title": "Shipping Details",
+    "recipientName": "Recipient Name",
+    "enterFullName": "Please enter full name",
+    "phone": "Phone",
+    "enterPhone": "Please enter phone number",
+    "city": "City",
+    "enterCity": "Please enter city",
+    "houseNumber": "House Number",
+    "address": "Address",
+    "enterAddress": "Please enter your full address",
+    "continuePurchase": "Proceed to Checkout",
+    "backToCart": "← Back to Cart"
+  },
+  "payMethod": {
+    "title": "Payment Method",
+    "visa": "Pay with Visa",
+    "cash": "Cash on Delivery",
+    "completePayment": "Complete Payment",
+    "backToCart": "← Back to Cart",
+    "chooseMethodAlert": "Please choose a payment method first!"
+  },"paymentSuccess": {
+  "title": "Payment Completed Successfully",
+  "text": "Your payment has been successfully processed. Thank you for using our services. Your order will be confirmed soon.",
+  "button": "Rate the Product"
+},
+"paymentFail": {
+  "title": "Payment Failed!",
+  "text": "The payment was not successful. Please check your information or try another payment method.",
+  "button": "try again"
+}, "rating": {
+    "title": "Rate Your Last Purchased Product",
+    "noProduct": "⏳ There is no product to rate currently.",
+    "chooseStars": "⚠️ Please select the number of stars first",
+    "reviewPlaceholder": "Write your review about the product",
+    "submit": "Submit",
+    "success": "✅ Your rating for {{product}} has been successfully submitted",
+    "fail": "❌ Failed to submit rating: ",
+    "error": "⚠️ There was a server error. Please try again"
+  },
+    "ratingSuccess": {
+      "title": "Your rating has been submitted",
+      "text": "Your rating has been submitted successfully. Thank you for sharing your opinion, it helps us improve our services and provide the best always."
+    }
+
+}

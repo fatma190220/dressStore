@@ -1,0 +1,12 @@
+{
+  "loadingBlogs": "جارٍ تحميل المدونات...",
+  "errorBlogs": "حدث خطأ في تحميل البيانات",
+  "searchPlaceholder": "ابحث بعنوان المدونة....",
+  "searchButton": "بحث",
+  "noBlogs": "لا توجد مدونات متاحة.",
+  "readMore": "المزيد",
+  "loadingSingleBlog": "جاري تحميل التدوينة...",
+  "notFound": "لم يتم العثور على التدوينة المطلوبة",
+  "backToBlogs": "العودة للمدونات",
+  "date": "التاريخ"
+}
